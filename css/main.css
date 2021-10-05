@@ -5,20 +5,34 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: #6d7075;
+    
 }
 
 /* UTILITIES */
 
-.flex {
+.flex-row {
     display: flex;
 }
 
-.w15 {
-    width: 15%;
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
-.w85 {
-    width: 85%;
+.px20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.my20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 /* BACKGROUNDS */
@@ -39,7 +53,6 @@
 
 .app {
     height: 100vh;
-    flex-direction: column;
 }
 
 .container {
@@ -47,6 +60,53 @@
 }
 
 /* SIDEBAR  */
+
+.sidebar {
+    width: 200px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sidebar .side-nav {
+    flex-grow: 1;
+}
+
+.brand img {
+    width: 80%;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu .link{
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.menu img  {
+    width: 15%;
+    margin-right: 5px;
+}
+
+.playlist-menu .menu li:first-child {
+    font-size: 14px;
+}
+
+.playlist-menu .menu i:first-child {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.playlist-menu .menu .link {
+    margin-bottom: 20px;
+}
+/* MAIN */
+
+main {width: calc(100% - 200px);
+}
 
 
 
