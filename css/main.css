@@ -6,3 +6,52 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w85 {
+    width: 85%;
+}
+
+/* BACKGROUNDS */
+
+.bg-main {
+    background-color: #141922;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-grey {
+    background-color: #282828;
+}
+
+/* APP */
+
+.app {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+/* SIDEBAR  */
+
+
+
+
+
+footer {
+    height: 90px; /*REMOVE ME? */
+}
