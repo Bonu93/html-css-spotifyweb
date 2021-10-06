@@ -229,13 +229,69 @@ footer {
 }
 
 .player {
-    flex-grow: 1;
+    width: 60%;
     justify-content: center;
     align-items: center;
-    color: ;
+    color: #fff;
+}
+
+.player i {
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.player .fa-play-circle {
+    font-size: 30px;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+.player i:last-child {
+    margin: 0;
 }
 
 .device-control {
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+
+.time-flow {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    background-color: #5a5a5a;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.time {
+    width: 60%;
+    margin: 0 20px;
+}
+
+.status.bar {
+    background-color: #fff;
+    width: 40%;
+}
+
+.time-point {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.volume {
+    width: 50%;
+}
+
+.device-control i{
+        margin-right: 20px;
+        font-size: 15px;
+        cursor: pointer;
 }
