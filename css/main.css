@@ -113,6 +113,43 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
 }
 
+.install .link {
+    text-decoration: none;
+    color: #6d7075;
+    align-items: center;
+}
+
+.install .link img {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.sidebar-footer hr {
+    margin: 10px 0;
+}
+
+.profile {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profile .thumb {
+    background-color: #6d7075;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile .thumb img {
+    object-fit: contain;
+}
+
+.user {
+    color: #fff;
+    font-size: 14px;
+}
+
 /* MAIN */
 
 main {
