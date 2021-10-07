@@ -84,6 +84,10 @@ h1, h2, h3, h4 {
     width: 80%;
 }
 
+.brand .small {
+    display: none;
+}
+
 .menu {
     list-style: none;
 }
@@ -398,6 +402,54 @@ footer {
 @media screen and (max-width: 800px) {
     .card {
         width: calc((100% - 120px) / 2);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .brand img:first-child {
+        display: none;
+    }
+
+    .brand img:last-child {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .link span {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    .sidebar hr {
+        display: none;
+    }
+
+    .install {
+        margin-bottom: 30px;
+    }
+
+    .sidebar {
+        width: 80px;
+    }
+
+    main {
+        width: calc(100% - 80px);
+    }
+
+    .sidebar img {
+        width: 80%;
+    }
+
+    .install .link img {
+        width: 100%;
     }
     
 }
